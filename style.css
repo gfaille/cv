@@ -1,0 +1,25 @@
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #666666;
+}
+
+section {
+    width: 75%;
+}
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    color: #179498;
+}
+article {
+    display: flex;
+}
+article p {
+    flex: 1;
+}
+.outils {
+    display: flex;
+    flex-direction: column;
+}
+img {
+    width: 100px;
+}
