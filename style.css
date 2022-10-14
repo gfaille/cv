@@ -1,25 +1,92 @@
+body {
+    margin-left: 20%;
+    margin-right: 20%;
+}
 h1 {
     font-family: 'Montserrat', sans-serif;
     color: #666666;
 }
+h5 {
+    font-family: 'Open sans ', sans-serif;
+    font-size: 14px;
+    color: #666666;
+}
+section p {
+    font-size: 14px;
+    color: #666666;
+}
+section li {
+    color: #666666;
+    margin: 5px;
+}
 
 section {
-    width: 75%;
+    width: 50%;
+    float: right;
+}
+section hr {
+    color: #179498;
 }
 h2 {
+    margin-bottom: 0px;
     font-family: 'Montserrat', sans-serif;
     color: #179498;
 }
 article {
     display: flex;
 }
-article p {
+article, h5, p {
     flex: 1;
 }
-.outils {
-    display: flex;
-    flex-direction: column;
-}
 img {
-    width: 100px;
+    width: 50%;
+}
+.outils {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    text-align: center;
+}
+.un{
+    text-align: left;
+    grid-column: 1 / 6;
+}
+hr {
+    width: 100%;
+    grid-column: 1 / 6;
+}
+
+
+aside {
+    float: left;
+    width: 35%;
+    height: 70vw;
+    background-color: #179498;
+}
+aside p {
+    font-size: 14px;
+    font-family: 'Open sans', sans-serif;
+    color: white;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+aside h3 {
+    font-family: 'Open sans', sans-serif;
+    color: white;  
+    margin-left: 10px;
+    margin-top: 10%; 
+    margin-bottom: 0;
+}
+aside li {
+    font-family: 'Open sans', sans-serif;
+    color: white;  
+}
+aside a {
+    color: white;
+}
+aside hr {
+    color: white;
+    margin-left: 10px;
+    margin-bottom: 5%;
+    width: 95%;
 }
