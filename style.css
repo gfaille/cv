@@ -1,92 +1,202 @@
-body {
-    margin-left: 20%;
-    margin-right: 20%;
-}
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    color: #666666;
-}
-h5 {
-    font-family: 'Open sans ', sans-serif;
-    font-size: 14px;
-    color: #666666;
-}
-section p {
-    font-size: 14px;
-    color: #666666;
-}
-section li {
-    color: #666666;
-    margin: 5px;
+@media screen and (min-width: 460px){
+
+    body {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: #666666;
+    }
+    h5 {
+        font-family: 'Open sans ', sans-serif;
+        font-size: 14px;
+        color: #666666;
+    }
+    section p {
+        font-size: 14px;
+        color: #666666;
+    }
+    section li {
+        color: #666666;
+        margin: 5px;
+    }
+    
+    section {
+        width: 50%;
+        float: right;
+    }
+    section hr {
+        color: #179498;
+    }
+    h2 {
+        margin-bottom: 0px;
+        font-family: 'Montserrat', sans-serif;
+        color: #179498;
+    }
+    article {
+        display: flex;
+    }
+    article, h5, p {
+        flex: 1;
+    }
+    img {
+        max-width: 50%;
+    }
+    .outils {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+    }
+    .un{
+        text-align: left;
+        grid-column: 1 / 6;
+    }
+    hr {
+        width: 100%;
+        grid-column: 1 / 6;
+    }
+    
+    
+    aside {
+        float: left;
+        width: 35%;
+        height: 70vw;
+        background-color: #179498;
+    }
+    aside p {
+        font-size: 14px;
+        font-family: 'Open sans', sans-serif;
+        color: white;
+        margin-left: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    aside h3 {
+        font-family: 'Open sans', sans-serif;
+        color: white;  
+        margin-left: 10px;
+        margin-top: 10%; 
+        margin-bottom: 0;
+    }
+    aside li {
+        font-family: 'Open sans', sans-serif;
+        color: white;  
+    }
+    aside a {
+        color: white;
+    }
+    aside hr {
+        color: white;
+        margin-left: 10px;
+        margin-bottom: 5%;
+        width: 95%;
+    }
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
 
-section {
-    width: 50%;
-    float: right;
-}
-section hr {
-    color: #179498;
-}
-h2 {
-    margin-bottom: 0px;
-    font-family: 'Montserrat', sans-serif;
-    color: #179498;
-}
-article {
-    display: flex;
-}
-article, h5, p {
-    flex: 1;
-}
-img {
-    width: 50%;
-}
-.outils {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    text-align: center;
-}
-.un{
-    text-align: left;
-    grid-column: 1 / 6;
-}
-hr {
-    width: 100%;
-    grid-column: 1 / 6;
-}
+@media screen and (min-width: 1280px){
 
-
-aside {
-    float: left;
-    width: 35%;
-    height: 70vw;
-    background-color: #179498;
-}
-aside p {
-    font-size: 14px;
-    font-family: 'Open sans', sans-serif;
-    color: white;
-    margin-left: 25px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-aside h3 {
-    font-family: 'Open sans', sans-serif;
-    color: white;  
-    margin-left: 10px;
-    margin-top: 10%; 
-    margin-bottom: 0;
-}
-aside li {
-    font-family: 'Open sans', sans-serif;
-    color: white;  
-}
-aside a {
-    color: white;
-}
-aside hr {
-    color: white;
-    margin-left: 10px;
-    margin-bottom: 5%;
-    width: 95%;
+    body {
+        margin-left: 20%;
+        margin-right: 20%;
+    }
+    h1 {
+        font-family: 'Montserrat', sans-serif;
+        color: #666666;
+    }
+    h5 {
+        font-family: 'Open sans ', sans-serif;
+        font-size: 14px;
+        color: #666666;
+    }
+    section p {
+        font-size: 14px;
+        color: #666666;
+    }
+    section li {
+        color: #666666;
+        margin: 5px;
+    }
+    
+    section {
+        width: 50%;
+        float: right;
+    }
+    section hr {
+        color: #179498;
+    }
+    h2 {
+        margin-bottom: 0px;
+        font-family: 'Montserrat', sans-serif;
+        color: #179498;
+    }
+    article {
+        display: flex;
+    }
+    article, h5, p {
+        flex: 1;
+    }
+    img {
+        max-width: 50%;
+    }
+    .outils {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+    }
+    .un{
+        text-align: left;
+        grid-column: 1 / 6;
+    }
+    hr {
+        width: 100%;
+        grid-column: 1 / 6;
+    }
+    
+    
+    aside {
+        float: left;
+        width: 35%;
+        height: 70vw;
+        background-color: #179498;
+    }
+    aside p {
+        font-size: 14px;
+        font-family: 'Open sans', sans-serif;
+        color: white;
+        margin-left: 25px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    aside h3 {
+        font-family: 'Open sans', sans-serif;
+        color: white;  
+        margin-left: 10px;
+        margin-top: 10%; 
+        margin-bottom: 0;
+    }
+    aside li {
+        font-family: 'Open sans', sans-serif;
+        color: white;  
+    }
+    aside a {
+        color: white;
+    }
+    aside hr {
+        color: white;
+        margin-left: 10px;
+        margin-bottom: 5%;
+        width: 95%;
+    }
+    
+    ul {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
 }
