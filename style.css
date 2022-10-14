@@ -61,7 +61,6 @@
     aside {
         float: left;
         width: 35%;
-        height: 100vw;
         background-color: #179498;
     }
     aside p {
@@ -81,7 +80,7 @@
     }
     aside li {
         font-family: 'Open sans', sans-serif;
-        color: white;  
+        color: white;
     }
     aside a {
         color: white;
@@ -163,7 +162,6 @@
     aside {
         float: left;
         width: 35%;
-        height: 70vw;
         background-color: #179498;
     }
     aside p {
