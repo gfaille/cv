@@ -102,8 +102,8 @@
 @media screen and (min-width: 1280px){
 
     body {
-        margin-left: 20%;
-        margin-right: 20%;
+        margin-left: 15%;
+        margin-right: 15%;
     }
     h1 {
         font-family: 'Montserrat', sans-serif;
@@ -113,6 +113,7 @@
         font-family: 'Open sans ', sans-serif;
         font-size: 14px;
         color: #666666;
+        text-align: center;
     }
     section p {
         font-size: 14px;
@@ -138,8 +139,12 @@
     article {
         display: flex;
     }
-    article, h5, p {
-        flex: 1;
+    article, h5 {
+        column-gap: 20%;
+        flex: 1 1 30%;
+    }
+    article, p {
+        flex: 2 1 60%;
     }
     img {
         max-width: 50%;
